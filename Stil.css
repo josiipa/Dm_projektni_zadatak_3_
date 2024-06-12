@@ -1,0 +1,95 @@
+@charset "utf-8";
+@font-face {
+	font-family: JosipaPejkovic;
+	src:url("Stranica/JosipaPejkovic (2).ttf");
+}
+.menu li{
+	display: inline;
+}
+.menu{
+	padding:60px; 
+	margin-left: auto; 
+	margin-right:auto;  
+	width: 600px;
+}
+.menu li{
+	background-color:black;
+			padding:40px;
+			border: 2px red;
+}
+.menu li:active {background-color:	gray;}
+		
+	.menu li a {	color:white; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	.menu li a:link {text-decoration:none;}
+	.menu li a:hover {text-decoration:underline;}
+	
+	</style>
+	
+h1 {
+	font-family: JosipaPejkovic;
+}
+.paragraf_1 {
+	color: fushsia;
+	font-size: 25px;
+	background-color: pink;
+	line-height:40px;
+	width: cover;
+	background-color: pink;
+	padding: 50px;	
+	list-style-position: center;
+	text-align: center;
+}
+.p1 {
+	color: fushsia;
+	font-size: 30px;
+	text-align: center;
+}
+.pozadina{
+	background-image: url("pozadina.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.o_meni{
+	color: fushsia;
+}
+.paragraf_2{
+	color: white;
+	font-size: 20px;
+	background-color: purple;
+	line-height: 40px;
+	width: cover;
+	display: inline-block;
+	text-align: center;
+}
+.h2{
+	color: purple;
+}
+.blok1{
+	background-color: gray;
+	line-height: 30px;
+	width: cover;
+	font-size: 20px;
+	text-align: center;
+	color: purple;
+}
+.blok2{
+	background-color: purple;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+.blok3{
+	background-color: purple;
+}
+.vjezbe{
+	color: black;
+}
+h1{
+	text-align: center;
+}
+
